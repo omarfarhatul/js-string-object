@@ -28,3 +28,6 @@ console.log(college.unique.result.merit)
 
 college.events[1] = '16th december'
 console.log(college.events[1])
+
+delete college.class;
+console.log(college)
